@@ -1,0 +1,161 @@
+/* Global */
+* {
+    margin: 1.5rem;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+/* Backgrounds */
+#ser{
+    background-image: url(../img/boneSer2.jpg);
+    color: black;
+}
+#reg{
+    background-image: url(../img/boneReg2.jpg);
+    color: black;
+}
+#abo{
+    background-image: url(../img/boneAbo2.jpg);
+    color: black;
+}
+/* Header/Nav */
+#dogBackAbout{
+    background-image: url(../img/dogAbout2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+#dogBackServices{
+    background-image: url(../img/dogServices2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem;
+    border: 4px solid navy;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+#dogBackRegister{
+    background-image: url(../img/dogRegister2.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 30rem;
+    border: 5px solid maroon;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+/* Navigation Styling*/
+nav{
+    display: flow;
+    text-align: right;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+nav i{
+    font-size: 1.5rem;
+}
+nav a{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: maroon;
+}
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+/* Header Styling */
+h1{
+    font-family: 'Oranienbaum', serif;
+    font-size: 90px;
+    display: flow;
+    text-align:right;
+}
+#the2{
+    padding-top: 1rem;
+    padding-right: 45rem;
+    filter: drop-shadow(4px 5px 4px #3b3b44);
+}
+#fashion2{
+    padding-right: 26rem;
+    margin-top: -4.1rem;
+    filter: drop-shadow(4px 5px 4px #3b3b44);
+}
+#pet2{
+    padding-right: 16rem;
+    margin-top: -4.2rem;
+    filter: drop-shadow(4px 5px 4px #3b3b44);
+}
+/* Footer Styling */
+footer{
+    background-color: #d0f2fb;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 38rem;
+}
+/* Grid Formatting */
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+#grid1{
+    grid-column: 2;
+    grid-row: 1/3;
+    border-bottom: 2px solid black;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+#grid2{
+    grid-column: 1;
+    grid-row: 2/4;
+    padding-top: 2rem;
+    border-top: 2px solid black;
+}
+#grid3{
+    grid-column: 3;
+    grid-row: 2/4;
+    padding-top: 2rem;
+    border-top: 2px solid black;
+}
+#grid4{
+    grid-column: 2;
+    grid-row: 3;
+}
+#copyright{
+    padding-top: 2rem;
+    text-align: center;
+}
+#footName{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+footer i{
+    font-size: 1.5rem;
+    justify-items: center;
+}
+#link, #register{
+    border: 2px solid black;
+    font-size: .8rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: maroon;
+    text-decoration: none;
+}
+footer a:link{
+    color: black;
+    text-decoration: none;
+}

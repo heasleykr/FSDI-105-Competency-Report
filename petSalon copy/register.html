@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    
+    <!-- Fonts/Icons/CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+        <!-- Secondary Styling -->
+        <link rel="stylesheet" href="/css/style2.css">
+
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Oranienbaum&family=Quicksand&display=swap" rel="stylesheet">
+
+    <title>The Fashion Pet</title>
+</head>
+<body id="reg">
+    <div id="dogBackRegister">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="register.html">Register</a>
+            <i class="fab fa-gg"></i>
+        </nav>
+
+        <header>
+            <h1 id="the2">The</h1> 
+            <h1 id="fashion2">Fashion</h1>
+            <h1 id="pet2">Pet</h1>
+        </header>
+    </div>
+
+    <main id="register-main" class="container">
+        <div id="form">
+                <h2>Register your pet here: </h2>
+                <form action="#">
+                <p id="pPetName" class="form-group">
+                    <label for="name">Name</label>
+                    <input id="petName" class="form-control" type="text" required placeholder="Pet's Name"> 
+                </p>
+
+                <p class="form-group">
+                    <label for="age">Age</label>
+                    <input type="age" class="form-control" name="age" required placeholder="Pet's Age" id="petAge">
+                </p>
+
+                <p class="form-group">    
+                    <label for="type">Animal Type</label>
+                    <input type="animalType" class="form-control" name="type" required placeholder="Type of Animal" id="petType">
+                </p>
+
+                <p class="form-group">
+                    <label for="breed">Breed</label>
+                    <input type="breed" class="form-control" name="breed" required placeholder="Pet Breed" id="petBreed">  
+                </p>
+
+                <p class="form-group">
+                    <label for="age">Gender: </label>
+                    <input type="age" class="form-control" name="age" required placeholder="Pet's Gender" id="petGender">
+                </p>
+
+                <p class="form-group">
+                        <label for="service">Services: </label>
+                            <select name="services" id="petService">
+                                <option value="Shower">Shower  /  $15.00</option>
+                                <option value="Hair cut">Hair Cut  /  $50.00</option>
+                                <option value="Toenail Trim">Toenail Trim  /  $25.00</option>
+                                <option value="Full Service">Full Service  /  $90.00</option>
+                            </select>
+                </p>
+
+                <p class="form-group">
+                    <label for="ownerName">Owner's Name: </label>
+                    <input type="ownerName" class="form-control" name="ownerName" id="ownersName">
+                </p>
+
+                <p class="form-group">
+                    <label for="contactPhone">Contact Phone: </label>
+                    <input type="contactPhone" class="form-control" name="contactPhone" id="contactPhone">
+                </p>
+
+
+                <input id="register-btn" type="button" class="btn-success" value="Register">
+        </div>
+
+
+        <!-- Section to display total number of pets in the Salon -->
+       <div id="totalPets">
+            <h2 id="countTotal"></h2>
+            <h3 id="profitTotal"></h3>
+            <div id="bDay">
+                <i class="fas fa-birthday-cake"></i>
+                <p id="old"></p>
+                <i class="fas fa-birthday-cake"></i>
+                <p id="young"></p>
+            </div>
+            <hr />
+            <h3> Current Furry Guests: </h2>
+                <div id="countA">
+                    <p id="totalDog"></p>
+                    <p id="totalCat"></p>
+                    <p id="totalBird"></p>
+                    <p id="totalOther"></p>
+                </div>
+                <hr />
+       </div>
+    </form>
+        <!-- Display registered Pets to screen -->
+        <div id="searchDiv">
+            <label for="search">Search Pet Directory: </label>
+            <input class= "form-control" type="search" name="petSearch" required placeholder="Name or Service" id="petSearch">
+            <button id = "search-btn" class="btn btn-success">Search</button>
+        </div>
+        <div id="petSection">
+            <table id="petTable" class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Pet Name</th>
+                        <th></th>
+                        <th>Age</th>
+                        <th>Animal</th>
+                        <th>Breed</th>
+                        <th>Gender</th>
+                        <th>Service</th>
+                        <th>Owner</th>
+                        <th>Conact Phone</th>
+                        <th>Estimated Charges</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="petTrial">
+                </tbody>
+            </table>
+        </div>
+       
+    </main>
+
+    
+    <footer>
+        <div id="wrapper">
+         <div id="grid1">
+             <p id="footName">The Fashion Pet</p>
+             <i class="fab fa-twitter"></i>
+             <i class="fab fa-pinterest-square"></i>
+             <i class="fab fa-instagram"></i>
+         </div>
+         <div id="grid2">
+             <p>Address :</p>
+             <p>Av. University 245-k 25896</p> 
+         </div>
+         <div id="grid3">
+             <p>Hours :</p>
+             <p>Monday to Friday from 8:00 am to 5:00pm</p>
+         </div>
+         <div id="grid4">
+             <p id="link"><a href="index.html">Home: The Fashion Pet</a></p>
+             <p id="register"><a href="register.html">Register</a></p>
+             <p id="copyright">Copyright reserved &copy; 2020 Katelynn Heasley</p>
+         </div>
+       </div>
+     </footer>
+     <!-- JS/JQuery Links -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src= "js/script.js"></script>
+    <script src= "js/directory.js"></script>
+</body>
+</html>
